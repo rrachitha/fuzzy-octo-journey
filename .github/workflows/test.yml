@@ -10,7 +10,7 @@ jobs:
           
       - name: Create deploy action
         id: gh-action
-        uses: rrachitha/custom-create-action@main
+        uses: rrachitha/custom-create-action@v1.0.0
         with:
           userName: 'rrachitha'
           pacToken: ${{ secrets.PAC_TOKEN }}
