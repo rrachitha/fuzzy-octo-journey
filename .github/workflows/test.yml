@@ -1,6 +1,6 @@
 name: Repository Dispatch trigger
 on:
-  create:
+  workflow_dispatch:
 
 jobs:
   myEvent:
